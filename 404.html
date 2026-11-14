@@ -2,7 +2,9 @@
 <html lang="cs">
 <head>
   <meta charset="utf-8">
+  <!-- Vygenerováno skriptem build.mjs. Needitovat ručně. -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="/doupatkov/">
   <title>Stránka se ztratila – Doupátkov</title>
   <meta name="robots" content="noindex">
   <link rel="icon" type="image/png" href="img/apple-touch-icon.png">
@@ -14,16 +16,53 @@
     .lost { min-height: 100vh; display: grid; place-items: center; text-align: center; padding: 40px 16px; }
     .lost img { width: 180px; margin: 0 auto 24px; border-radius: 50%; box-shadow: var(--shadow); }
     .lost p { color: var(--ink-soft); font-size: 18px; max-width: 440px; margin: 0 auto 28px; }
+    .lost__langs { margin-top: 32px; font-weight: 700; }
+    .lost__langs a { color: var(--ink-soft); }
   </style>
 </head>
 <body>
   <main class="lost">
     <div>
-      <img src="img/apple-touch-icon.png" alt="Zajíček Ouško" width="180" height="180">
-      <h1>Jejda, tahle cestička nikam nevede</h1>
-      <p>Ouško hledalo všude – pod listím, za kytičkou i u potoka. Tahle stránka tu ale není.</p>
-      <a class="btn btn--primary" href="./">Zpátky do Doupátkova</a>
+      <img src="img/apple-touch-icon.png" alt="Ouško" width="180" height="180">
+      <div class="lost__msg" lang="cs">
+        <h1>Jejda, tahle cestička nikam nevede</h1>
+        <p>Ouško hledalo všude – pod listím, za kytičkou i u potoka. Tahle stránka tu ale není.</p>
+        <a class="btn btn--primary" href="./">Zpátky do Doupátkova</a>
+      </div>
+      <div class="lost__msg" lang="en" hidden>
+        <h1>Oops, this little path leads nowhere</h1>
+        <p>Ouško looked everywhere – under the leaves, behind the flowers and down by the stream. But this page isn’t here.</p>
+        <a class="btn btn--primary" href="en/">Back to Doupátkov</a>
+      </div>
+      <div class="lost__msg" lang="de" hidden>
+        <h1>Hoppla, dieser Pfad führt nirgendwohin</h1>
+        <p>Ouško hat überall gesucht – unter dem Laub, hinter den Blumen und am Bach. Aber diese Seite gibt es hier nicht.</p>
+        <a class="btn btn--primary" href="de/">Zurück nach Doupátkov</a>
+      </div>
+      <div class="lost__msg" lang="es" hidden>
+        <h1>Vaya, este caminito no lleva a ninguna parte</h1>
+        <p>Ouško ha buscado por todas partes: bajo las hojas, detrás de las flores y junto al arroyo. Pero esta página no está aquí.</p>
+        <a class="btn btn--primary" href="es/">Volver a Doupátkov</a>
+      </div>
+      <div class="lost__msg" lang="pl" hidden>
+        <h1>Ojej, ta ścieżka donikąd nie prowadzi</h1>
+        <p>Ouško szukał wszędzie – pod liśćmi, za kwiatkami i nad strumykiem. Ale tej strony tu nie ma.</p>
+        <a class="btn btn--primary" href="pl/">Wróć do Doupátkova</a>
+      </div>
+      <p class="lost__langs"><a href="./" lang="cs">Čeština</a> · <a href="en/" lang="en">English</a> · <a href="de/" lang="de">Deutsch</a> · <a href="es/" lang="es">Español</a> · <a href="pl/" lang="pl">Polski</a></p>
     </div>
   </main>
+  <script>
+    (function () {
+      var langs = ["cs","en","de","es","pl"];
+      var rest = location.pathname.slice("/doupatkov/".length).split("/")[0];
+      var nav = (navigator.language || "").slice(0, 2).toLowerCase();
+      var pick = langs.indexOf(rest) > -1 ? rest : langs.indexOf(nav) > -1 ? nav : "cs";
+      var titles = {"cs":"Stránka se ztratila – Doupátkov","en":"Page not found – Doupátkov","de":"Seite nicht gefunden – Doupátkov","es":"Página no encontrada – Doupátkov","pl":"Nie znaleziono strony – Doupátkov"};
+      document.querySelectorAll(".lost__msg").forEach(function (el) { el.hidden = el.lang !== pick; });
+      document.documentElement.lang = pick;
+      document.title = titles[pick];
+    })();
+  </script>
 </body>
 </html>

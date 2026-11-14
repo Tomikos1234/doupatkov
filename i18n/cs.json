@@ -1,0 +1,257 @@
+{
+  "lang": "cs",
+  "code": "CS",
+  "name": "Čeština",
+  "locale": "cs_CZ",
+  "meta": {
+    "title": "Lesní kamarádi z Doupátkova",
+    "description": "Klidný a laskavý animovaný seriál pro předškolní děti. 80 krátkých dílů o zajíčkovi Ouškovi a jeho kamarádech z vesničky ve starém dubu.",
+    "ogDescription": "Klidný a laskavý animovaný seriál pro předškolní děti. 80 krátkých dílů z vesničky ve starém dubu."
+  },
+  "nav": {
+    "skip": "Přeskočit na obsah",
+    "home": "Doupátkov – úvod",
+    "mainMenu": "Hlavní menu",
+    "menuOpen": "Otevřít menu",
+    "menuClose": "Zavřít menu",
+    "about": "O seriálu",
+    "characters": "Postavy",
+    "world": "Svět",
+    "episodes": "Díly",
+    "parents": "Pro rodiče",
+    "language": "Jazyk"
+  },
+  "hero": {
+    "alt": "Zajíček Ouško, medvídě Brumla, Babča Ježka a Cvrček Notička na louce u starého dubu",
+    "eyebrow": "Animovaný seriál pro předškoláky",
+    "title1": "Lesní kamarádi",
+    "title2": "z Doupátkova",
+    "lead": "Klidné příběhy z vesničky ve starém dubu. Žádné strašení, žádný spěch – jen malé dětské starosti, laskaví kamarádi a vždycky dobrý konec.",
+    "cta1": "Seznamte se s dílem 1",
+    "cta2": "Všech 80 dílů"
+  },
+  "about": {
+    "eyebrow": "O seriálu",
+    "title": "Malé příběhy o&nbsp;velkých dětských pocitech",
+    "p1": "Ve starém dutém dubu je schovaná útulná vesnička Doupátkov. Bydlí v ní zvídavý zajíček Ouško se svými kamarády. Každý díl přináší jednu jednoduchou situaci, kterou malé dítě samo zná – strach ze tmy, dělení se o hračky, nového kamaráda nebo bouřku za oknem.",
+    "p2": "Seriál je pomalý a měkký v duchu klasických večerníčků. Poučení nikdo nevykřikuje nahlas – děti na něj přijdou samy, spolu s Ouškem.",
+    "facts": {
+      "episodes": "dílů",
+      "minutes": "minut každý díl",
+      "age": "let, pro předškoláky",
+      "languages": "jazyků"
+    },
+    "v1t": "Bez strachu a napětí",
+    "v1p": "I noc je v Doupátkově modrá a laskavá. Žádné záporáky, žádné lekačky před spaním.",
+    "v2t": "Situace ze života dětí",
+    "v2p": "Sdílení, žárlivost, omluva, čištění zoubků. Témata, která dítě právě zažívá.",
+    "v3t": "Vždycky dobrý konec",
+    "v3p": "Každý díl končí písničkou Cvrčka Notičky a pocitem, že všechno je zase v pořádku."
+  },
+  "chars": {
+    "eyebrow": "Postavy",
+    "title": "Kdo bydlí v Doupátkově",
+    "sub": "Jen pár kamarádů, ať si je i ti nejmenší snadno zapamatují.",
+    "ousko": {
+      "name": "Ouško",
+      "alt": "Zajíček Ouško se zeleným šálem",
+      "role": "zvídavý zajíček · hlavní hrdina",
+      "text": "Na svět se dívá s úžasem a všechno chce vyzkoušet. Občas udělá chybu, ale vždycky se z ní něco naučí."
+    },
+    "babca": {
+      "name": "Babča Ježka",
+      "alt": "Babča Ježka s šátkem a lucerničkou",
+      "role": "moudrá ježčí babička",
+      "text": "Plete v houpacím křesle, vaří bylinkový čaj a ví, co dělat, když se něco nedaří. S lucerničkou ji nic nevyleká."
+    },
+    "brumla": {
+      "name": "Brumla",
+      "alt": "Medvídě Brumla v zelených laclácích",
+      "role": "nemotorné, ale hodné medvídě",
+      "text": "Silák s velkým srdcem. Rád jí, rád spí a při schovávané se schová za kytičku."
+    },
+    "cvrcek": {
+      "name": "Cvrček Notička",
+      "alt": "Cvrček Notička s houslemi a motýlkem",
+      "role": "drobný muzikant",
+      "text": "Veselá kopa, která všechno vyřeší písničkou. Jeho housličky zahrají na konci každého dílu."
+    },
+    "liska": {
+      "name": "Liška Ryška",
+      "alt": "Liška Ryška se žlutým šátkem",
+      "role": "trochu rošťačka",
+      "text": "Všimne si úplně všeho. Přišla do Doupátkova jako nová kamarádka a učí ostatní, co je fér."
+    }
+  },
+  "world": {
+    "eyebrow": "Svět",
+    "title": "Vesnička ve starém dubu",
+    "sub": "Kulaté, měkké a teplé. Okrová, mechová zelená a terakota – jako by celý les byl upletený z vlny.",
+    "dub": {
+      "alt": "Brumla a Ouško hrají na schovávanou u starého dubu",
+      "name": "Starý dub",
+      "text": "Dutý strom s okýnky, dvířky a schůdky. Uvnitř bydlí všichni kamarádi."
+    },
+    "louka": {
+      "alt": "Kvetoucí louka s potokem",
+      "name": "Louka a potok",
+      "text": "Místo na hraní, závody a pouštění draků."
+    },
+    "pokojicek": {
+      "alt": "Ouškův pokojíček s postýlkou a svíčkou",
+      "name": "Ouškův pokojíček",
+      "text": "Postýlka s dečkou, svíčka a kulaté okénko do koruny dubu."
+    },
+    "svetnicka": {
+      "alt": "Babčina světnička s houpacím křeslem a lucerničkou",
+      "name": "Babčina světnička",
+      "text": "Houpací křeslo, klubíčka vlny a sklenice s bylinkami."
+    }
+  },
+  "ep1": {
+    "eyebrow": "Díl 1 · 10 minut",
+    "title": "Ouško se bojí tmy",
+    "text": "Ouško si hraje s Brumlou na louce, dokud se nesetmí. Doma mu zhasne svíčka a na stěně se objeví veliký stín s dlouhýma ušima. Babča Ježka s ním vezme lucerničku a vydá se na tmu podívat. A ukáže se, že všechno má laskavé vysvětlení.",
+    "b1": "Znělka a Doupátkov",
+    "b2": "Hra na louce, setmí se, zhasne svíčka",
+    "b3": "Stín je jen kabátek, ťuká jen větvička",
+    "b4": "Ukolébavka a dobrou noc",
+    "quote": "„Tma je jen čas, kdy les spí.“",
+    "quoteBy": "Babča Ježka"
+  },
+  "list": {
+    "eyebrow": "Díly",
+    "title": "80 malých příběhů",
+    "sub": "Vyberte téma, které vaše dítě zrovna řeší, nebo vyhledejte díl podle názvu.",
+    "filterLabel": "Filtrovat díly podle tématu",
+    "searchLabel": "Hledat díl",
+    "searchPlaceholder": "Hledat díl…",
+    "empty": "Takový díl jsme nenašli. Zkuste jiné slovo. 🦔",
+    "all": "Všechny",
+    "featured": "ukázka",
+    "epLabel": "Díl {n}",
+    "count": {
+      "one": "{n} díl",
+      "few": "{n} díly",
+      "many": "{n} dílu",
+      "other": "{n} dílů"
+    }
+  },
+  "themes": {
+    "strach": "Strach a odvaha",
+    "sdileni": "Sdílení a spolupráce",
+    "pocity": "Přátelství a pocity",
+    "priroda": "Příroda a roční období",
+    "zvyky": "Domov a zvyky",
+    "dobro": "Malá dobrodružství"
+  },
+  "parents": {
+    "eyebrow": "Pro rodiče",
+    "title": "Jak vypadá jeden díl",
+    "sub": "Každý díl má stejný klidný rytmus. Děti vědí, co přijde, a to jim dává jistotu.",
+    "s1": { "title": "Znělka a úvod", "time": "30 s", "text": "Kdo, kde a o čem dnes bude řeč." },
+    "s2": { "title": "Zápletka", "time": "6–7 min", "text": "Jednoduchý problém, který postava řeší po svém." },
+    "s3": { "title": "Řešení", "time": "1–2 min", "text": "Jemné poučení, nikdy nahlas ani s prstem nahoře." },
+    "s4": { "title": "Písnička", "time": "30 s", "text": "Cvrček Notička zahraje a všichni se rozloučí." },
+    "tipsTitle": "Po dílu si můžete povídat",
+    "tips": [
+      "Čeho se Ouško bál a co mu pomohlo?",
+      "Bojíš se taky někdy? Co dělá tobě dobře?",
+      "Komu bys dal kousek své jahody?",
+      "Jak se dá kamarádovi omluvit?"
+    ],
+    "langsTitle": "Seriál připravujeme v pěti jazycích"
+  },
+  "footer": {
+    "tagline": "Dobrou noc, kamarádi. 🌙",
+    "navLabel": "Patička"
+  },
+  "notFound": {
+    "title": "Stránka se ztratila – Doupátkov",
+    "heading": "Jejda, tahle cestička nikam nevede",
+    "text": "Ouško hledalo všude – pod listím, za kytičkou i u potoka. Tahle stránka tu ale není.",
+    "back": "Zpátky do Doupátkova"
+  },
+  "episodes": [
+    "Ouško se bojí tmy",
+    "Ztracený míček",
+    "Nová kamarádka Liška",
+    "Dělení jahod",
+    "Brumla se bojí bouřky",
+    "Ukolébavka pro Brumlu",
+    "Velký úklid doupěte",
+    "Ouško se ztratí v lese",
+    "První sníh",
+    "Ztracená píšťalka",
+    "Umývání tlapek před jídlem",
+    "Závod na louce a fair play",
+    "Brumla se učí plavat",
+    "Sklizeň hub na podzim",
+    "Duha po dešti",
+    "Ouško žárlí na nového kamaráda",
+    "Péče o ptačí vajíčko",
+    "Večerní čištění zoubků",
+    "Úkryt před deštěm",
+    "Sdílení posledního kousku dortu",
+    "Strach z bubáka pod postelí",
+    "Nová písnička pro Cvrčka",
+    "Med a včely – sdílení s přírodou",
+    "Jak se omluvit kamarádovi",
+    "Ztracený deštník",
+    "Hraní na sněhu",
+    "Babiččin lék na rýmu",
+    "Trpělivost při rybaření",
+    "Vítr odfoukl klobouk",
+    "Skákání do podzimního listí",
+    "Pomoc zraněnému ptáčkovi",
+    "Tréma před vystoupením",
+    "Sdílení deštníku",
+    "Noční dobrodružství představivosti",
+    "Babiččiny staré povídky",
+    "Jarní probouzení lesa",
+    "Pečení koláče s Brumlou",
+    "Hledání ztracené kamarádky",
+    "Hrom a blesk – jak se nebát",
+    "Sdílení hraček na hřišti",
+    "Počítání hvězd",
+    "Cvrček ztratil hlas",
+    "Babiččina zahrádka",
+    "Společný úklid doupěte",
+    "Stavba nového domečku po bouři",
+    "Strach z doktora",
+    "Půjčování hudebního nástroje",
+    "Příprava na zimu",
+    "Ztracený knoflík",
+    "Čekání ve frontě",
+    "Cvrčkovy narozeniny",
+    "Jízda na vozítku z větviček",
+    "Předpovídání počasí podle přírody",
+    "Ztraceni v husté mlze",
+    "Ztracený oblíbený šátek",
+    "Sdílení deky v zimní noci",
+    "Přiznání chyby po rozbitém hrníčku",
+    "Žárlivost na Brumlovu sílu",
+    "Učení se hrát na nový nástroj",
+    "Jarní úklid doupěte",
+    "Pomoc mravenečkům s nákladem",
+    "Duha a mlha – přírodní úkazy",
+    "Stavba můstku přes potok",
+    "Bylinkový čaj podle babičky",
+    "Sdílení houpačky",
+    "Drakiáda na podzim",
+    "Strach z pavouků",
+    "Ztracená nota pro písničku",
+    "Čekání na opožděného kamaráda",
+    "Sdílení domečku s někým jiným",
+    "Proč Brumla musí spát celou zimu",
+    "Smutek z deštivého dne",
+    "Babiččina rada o přátelství",
+    "Divadlo stínů za deštivého večera",
+    "Stěhování žaludů společně",
+    "Ouško se učí neházet klacky",
+    "Jarní písnička pro celý les",
+    "Podělení se o poslední jahodu",
+    "Babiččino loučení před zimním spánkem",
+    "Velká lesní slavnost"
+  ]
+}

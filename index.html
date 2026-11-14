@@ -2,10 +2,18 @@
 <html lang="cs">
 <head>
   <meta charset="utf-8">
+  <!-- Vygenerováno skriptem build.mjs ze src/index.template.html a i18n/cs.json. Needitovat ručně. -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Lesní kamarádi z Doupátkova</title>
   <meta name="description" content="Klidný a laskavý animovaný seriál pro předškolní děti. 80 krátkých dílů o zajíčkovi Ouškovi a jeho kamarádech z vesničky ve starém dubu.">
   <meta name="theme-color" content="#fbf3e2">
+  <link rel="canonical" href="https://tomikos1234.github.io/doupatkov/">
+  <link rel="alternate" hreflang="cs" href="https://tomikos1234.github.io/doupatkov/">
+  <link rel="alternate" hreflang="en" href="https://tomikos1234.github.io/doupatkov/en/">
+  <link rel="alternate" hreflang="de" href="https://tomikos1234.github.io/doupatkov/de/">
+  <link rel="alternate" hreflang="es" href="https://tomikos1234.github.io/doupatkov/es/">
+  <link rel="alternate" hreflang="pl" href="https://tomikos1234.github.io/doupatkov/pl/">
+  <link rel="alternate" hreflang="x-default" href="https://tomikos1234.github.io/doupatkov/">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="cs_CZ">
   <meta property="og:site_name" content="Doupátkov">
@@ -13,7 +21,6 @@
   <meta property="og:description" content="Klidný a laskavý animovaný seriál pro předškolní děti. 80 krátkých dílů z vesničky ve starém dubu.">
   <meta property="og:url" content="https://tomikos1234.github.io/doupatkov/">
   <meta property="og:image" content="https://tomikos1234.github.io/doupatkov/img/og.jpg">
-  <link rel="canonical" href="https://tomikos1234.github.io/doupatkov/">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
@@ -40,16 +47,31 @@
       </svg>
       <span>Doupátkov</span>
     </a>
-    <button class="nav__toggle" aria-expanded="false" aria-controls="menu" aria-label="Otevřít menu">
-      <span></span><span></span><span></span>
-    </button>
-    <nav id="menu" class="nav__menu" aria-label="Hlavní menu">
-      <a href="#o-serialu">O seriálu</a>
-      <a href="#postavy">Postavy</a>
-      <a href="#svet">Svět</a>
-      <a href="#dily">Díly</a>
-      <a href="#rodice">Pro rodiče</a>
-    </nav>
+    <div class="nav__right">
+      <nav id="menu" class="nav__menu" aria-label="Hlavní menu">
+        <a href="#o-serialu">O seriálu</a>
+        <a href="#postavy">Postavy</a>
+        <a href="#svet">Svět</a>
+        <a href="#dily">Díly</a>
+        <a href="#rodice">Pro rodiče</a>
+      </nav>
+      <details class="lang">
+        <summary aria-label="Jazyk: Čeština">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+          <span>CS</span>
+        </summary>
+        <ul class="lang__menu">
+          <li><a href="./" hreflang="cs" lang="cs" aria-current="page"><b>CS</b>Čeština</a></li>
+          <li><a href="en/" hreflang="en" lang="en"><b>EN</b>English</a></li>
+          <li><a href="de/" hreflang="de" lang="de"><b>DE</b>Deutsch</a></li>
+          <li><a href="es/" hreflang="es" lang="es"><b>ES</b>Español</a></li>
+          <li><a href="pl/" hreflang="pl" lang="pl"><b>PL</b>Polski</a></li>
+        </ul>
+      </details>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="menu" aria-label="Otevřít menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
 </header>
 
@@ -176,15 +198,15 @@
           <figcaption><strong>Starý dub</strong>Dutý strom s okýnky, dvířky a schůdky. Uvnitř bydlí všichni kamarádi.</figcaption>
         </figure>
         <figure class="place">
-          <img src="img/louka.jpg" alt="Kvetoucí louka s potokem" loading="lazy" width="1344" height="752">
+          <img src="img/louka.jpg" alt="Kvetoucí louka s potokem" loading="lazy" width="1000" height="560">
           <figcaption><strong>Louka a potok</strong>Místo na hraní, závody a pouštění draků.</figcaption>
         </figure>
         <figure class="place">
-          <img src="img/pokojicek.jpg" alt="Ouškův pokojíček s postýlkou a svíčkou" loading="lazy" width="1344" height="752">
+          <img src="img/pokojicek.jpg" alt="Ouškův pokojíček s postýlkou a svíčkou" loading="lazy" width="1000" height="560">
           <figcaption><strong>Ouškův pokojíček</strong>Postýlka s dečkou, svíčka a kulaté okénko do koruny dubu.</figcaption>
         </figure>
         <figure class="place">
-          <img src="img/svetnicka.jpg" alt="Babčina světnička s houpacím křeslem a lucerničkou" loading="lazy" width="1344" height="752">
+          <img src="img/svetnicka.jpg" alt="Babčina světnička s houpacím křeslem a lucerničkou" loading="lazy" width="1000" height="560">
           <figcaption><strong>Babčina světnička</strong>Houpací křeslo, klubíčka vlny a sklenice s bylinkami.</figcaption>
         </figure>
       </div>
@@ -260,11 +282,11 @@
         <div class="langs">
           <h3>Seriál připravujeme v pěti jazycích</h3>
           <ul class="langs__list">
-            <li><span aria-hidden="true">🇨🇿</span>čeština</li>
-            <li><span aria-hidden="true">🇬🇧</span>English</li>
-            <li><span aria-hidden="true">🇩🇪</span>Deutsch</li>
-            <li><span aria-hidden="true">🇪🇸</span>Español</li>
-            <li><span aria-hidden="true">🇵🇱</span>polski</li>
+            <li><a href="./" hreflang="cs" lang="cs" aria-current="page">Čeština</a></li>
+            <li><a href="en/" hreflang="en" lang="en">English</a></li>
+            <li><a href="de/" hreflang="de" lang="de">Deutsch</a></li>
+            <li><a href="es/" hreflang="es" lang="es">Español</a></li>
+            <li><a href="pl/" hreflang="pl" lang="pl">Polski</a></li>
           </ul>
         </div>
       </div>
@@ -290,6 +312,7 @@
   </div>
 </footer>
 
+<script>window.I18N = {"lang":"cs","nav":{"menuOpen":"Otevřít menu","menuClose":"Zavřít menu"},"list":{"eyebrow":"Díly","title":"80 malých příběhů","sub":"Vyberte téma, které vaše dítě zrovna řeší, nebo vyhledejte díl podle názvu.","filterLabel":"Filtrovat díly podle tématu","searchLabel":"Hledat díl","searchPlaceholder":"Hledat díl…","empty":"Takový díl jsme nenašli. Zkuste jiné slovo. 🦔","all":"Všechny","featured":"ukázka","epLabel":"Díl {n}","count":{"one":"{n} díl","few":"{n} díly","many":"{n} dílu","other":"{n} dílů"}},"themes":{"strach":"Strach a odvaha","sdileni":"Sdílení a spolupráce","pocity":"Přátelství a pocity","priroda":"Příroda a roční období","zvyky":"Domov a zvyky","dobro":"Malá dobrodružství"},"episodes":["Ouško se bojí tmy","Ztracený míček","Nová kamarádka Liška","Dělení jahod","Brumla se bojí bouřky","Ukolébavka pro Brumlu","Velký úklid doupěte","Ouško se ztratí v lese","První sníh","Ztracená píšťalka","Umývání tlapek před jídlem","Závod na louce a fair play","Brumla se učí plavat","Sklizeň hub na podzim","Duha po dešti","Ouško žárlí na nového kamaráda","Péče o ptačí vajíčko","Večerní čištění zoubků","Úkryt před deštěm","Sdílení posledního kousku dortu","Strach z bubáka pod postelí","Nová písnička pro Cvrčka","Med a včely – sdílení s přírodou","Jak se omluvit kamarádovi","Ztracený deštník","Hraní na sněhu","Babiččin lék na rýmu","Trpělivost při rybaření","Vítr odfoukl klobouk","Skákání do podzimního listí","Pomoc zraněnému ptáčkovi","Tréma před vystoupením","Sdílení deštníku","Noční dobrodružství představivosti","Babiččiny staré povídky","Jarní probouzení lesa","Pečení koláče s Brumlou","Hledání ztracené kamarádky","Hrom a blesk – jak se nebát","Sdílení hraček na hřišti","Počítání hvězd","Cvrček ztratil hlas","Babiččina zahrádka","Společný úklid doupěte","Stavba nového domečku po bouři","Strach z doktora","Půjčování hudebního nástroje","Příprava na zimu","Ztracený knoflík","Čekání ve frontě","Cvrčkovy narozeniny","Jízda na vozítku z větviček","Předpovídání počasí podle přírody","Ztraceni v husté mlze","Ztracený oblíbený šátek","Sdílení deky v zimní noci","Přiznání chyby po rozbitém hrníčku","Žárlivost na Brumlovu sílu","Učení se hrát na nový nástroj","Jarní úklid doupěte","Pomoc mravenečkům s nákladem","Duha a mlha – přírodní úkazy","Stavba můstku přes potok","Bylinkový čaj podle babičky","Sdílení houpačky","Drakiáda na podzim","Strach z pavouků","Ztracená nota pro písničku","Čekání na opožděného kamaráda","Sdílení domečku s někým jiným","Proč Brumla musí spát celou zimu","Smutek z deštivého dne","Babiččina rada o přátelství","Divadlo stínů za deštivého večera","Stěhování žaludů společně","Ouško se učí neházet klacky","Jarní písnička pro celý les","Podělení se o poslední jahodu","Babiččino loučení před zimním spánkem","Velká lesní slavnost"]};</script>
 <script src="js/main.js"></script>
 </body>
 </html>

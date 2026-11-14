@@ -1,0 +1,255 @@
+{
+  "lang": "es",
+  "code": "ES",
+  "name": "Español",
+  "locale": "es_ES",
+  "meta": {
+    "title": "Los amigos del bosque de Doupátkov",
+    "description": "Una serie animada tranquila y tierna para niños en edad preescolar. 80 episodios cortos sobre el conejito Ouško y sus amigos de una aldea dentro de un viejo roble.",
+    "ogDescription": "Una serie animada tranquila y tierna para preescolares. 80 episodios cortos de una pequeña aldea dentro de un viejo roble."
+  },
+  "nav": {
+    "skip": "Saltar al contenido",
+    "home": "Doupátkov – inicio",
+    "mainMenu": "Menú principal",
+    "menuOpen": "Abrir menú",
+    "menuClose": "Cerrar menú",
+    "about": "La serie",
+    "characters": "Personajes",
+    "world": "El mundo",
+    "episodes": "Episodios",
+    "parents": "Para familias",
+    "language": "Idioma"
+  },
+  "hero": {
+    "alt": "El conejito Ouško, el osito Brumla, la abuela erizo Babča Ježka y el grillo Notička en un prado junto al viejo roble",
+    "eyebrow": "Serie animada para preescolares",
+    "title1": "Los amigos del bosque",
+    "title2": "de Doupátkov",
+    "lead": "Historias tranquilas de una pequeña aldea dentro de un viejo roble. Sin sustos ni prisas: solo pequeñas preocupaciones infantiles, amigos cariñosos y siempre un final feliz.",
+    "cta1": "Conoce el episodio 1",
+    "cta2": "Los 80 episodios"
+  },
+  "about": {
+    "eyebrow": "Sobre la serie",
+    "title": "Pequeñas historias sobre grandes emociones",
+    "p1": "Dentro de un viejo roble hueco se esconde Doupátkov, una aldea acogedora. Allí vive Ouško, un conejito curioso, con sus amigos. Cada episodio presenta una situación sencilla que los niños pequeños conocen bien: el miedo a la oscuridad, compartir los juguetes, un nuevo amigo o una tormenta al otro lado de la ventana.",
+    "p2": "La serie es pausada y suave, al estilo de los clásicos dibujos checos para antes de dormir. Nadie anuncia la moraleja en voz alta: los niños la descubren solos, junto a Ouško.",
+    "facts": {
+      "episodes": "episodios",
+      "minutes": "minutos cada uno",
+      "age": "años, para preescolares",
+      "languages": "idiomas"
+    },
+    "v1t": "Sin miedo ni tensión",
+    "v1p": "Incluso la noche en Doupátkov es azul y amable. Sin villanos ni sustos antes de dormir.",
+    "v2t": "Situaciones de la vida de los niños",
+    "v2p": "Compartir, los celos, pedir perdón, lavarse los dientes. Temas que los niños viven cada día.",
+    "v3t": "Siempre un final feliz",
+    "v3p": "Cada episodio termina con una canción del grillo Notička y la sensación de que todo vuelve a estar bien."
+  },
+  "chars": {
+    "eyebrow": "Personajes",
+    "title": "Quién vive en Doupátkov",
+    "sub": "Solo unos pocos amigos, para que hasta los más pequeños los recuerden fácilmente.",
+    "ousko": {
+      "name": "Ouško",
+      "alt": "El conejito Ouško con una bufanda verde",
+      "role": "conejito curioso · protagonista",
+      "text": "Mira el mundo con asombro y quiere probarlo todo. A veces se equivoca, pero siempre aprende algo."
+    },
+    "babca": {
+      "name": "Babča Ježka",
+      "alt": "Babča Ježka con pañuelo y farolillo",
+      "role": "sabia abuela erizo",
+      "text": "Teje en su mecedora, prepara té de hierbas y sabe qué hacer cuando algo sale mal. Con su farolillo, nada la asusta."
+    },
+    "brumla": {
+      "name": "Brumla",
+      "alt": "El osito Brumla con un peto verde",
+      "role": "osito torpe pero bondadoso",
+      "text": "Un forzudo de gran corazón. Le encanta comer, le encanta dormir y, cuando juega al escondite, se esconde detrás de una flor."
+    },
+    "cvrcek": {
+      "name": "Notička",
+      "alt": "El grillo Notička con violín y pajarita",
+      "role": "pequeño grillo músico",
+      "text": "Un alegre bromista que lo resuelve todo con una canción. Su violín suena al final de cada episodio."
+    },
+    "liska": {
+      "name": "Ryška",
+      "alt": "La zorrita Ryška con un pañuelo amarillo",
+      "role": "zorrita un poco traviesa",
+      "text": "No se le escapa nada. Llegó a Doupátkov como nueva amiga y enseña a los demás lo que es justo."
+    }
+  },
+  "world": {
+    "eyebrow": "El mundo",
+    "title": "Una aldea dentro de un viejo roble",
+    "sub": "Redondo, suave y cálido. Ocre, verde musgo y terracota, como si todo el bosque estuviera tejido con lana.",
+    "dub": {
+      "alt": "Brumla y Ouško juegan al escondite junto al viejo roble",
+      "name": "El viejo roble",
+      "text": "Un árbol hueco con ventanitas, puertecitas y escalones. Dentro viven todos los amigos."
+    },
+    "louka": {
+      "alt": "Un prado en flor con un arroyo",
+      "name": "El prado y el arroyo",
+      "text": "Un lugar para jugar, hacer carreras y volar cometas."
+    },
+    "pokojicek": {
+      "alt": "La habitación de Ouško con su camita y una vela",
+      "name": "La habitación de Ouško",
+      "text": "Una camita con su manta de retales, una vela y una ventana redonda que da a la copa del roble."
+    },
+    "svetnicka": {
+      "alt": "La salita de Babča con mecedora y farolillo",
+      "name": "La salita de Babča",
+      "text": "Una mecedora, ovillos de lana y tarros llenos de hierbas."
+    }
+  },
+  "ep1": {
+    "eyebrow": "Episodio 1 · 10 minutos",
+    "title": "Ouško tiene miedo a la oscuridad",
+    "text": "Ouško juega con Brumla en el prado hasta que oscurece. En casa se le apaga la vela y en la pared aparece una sombra enorme con orejas largas. Babča Ježka toma su farolillo y va con él a echar un vistazo a la oscuridad. Y resulta que todo tiene una explicación amable.",
+    "b1": "Sintonía y Doupátkov",
+    "b2": "Juegos en el prado, anochece, se apaga la vela",
+    "b3": "La sombra es solo un abrigo; el golpeteo, una ramita",
+    "b4": "Nana y buenas noches",
+    "quote": "«La oscuridad es solo el momento en que el bosque duerme».",
+    "quoteBy": "Babča Ježka"
+  },
+  "list": {
+    "eyebrow": "Episodios",
+    "title": "80 pequeñas historias",
+    "sub": "Elige un tema que tu peque esté viviendo ahora o busca un episodio por su título.",
+    "filterLabel": "Filtrar episodios por tema",
+    "searchLabel": "Buscar episodio",
+    "searchPlaceholder": "Buscar episodio…",
+    "empty": "No hemos encontrado ese episodio. Prueba con otra palabra. 🦔",
+    "all": "Todos",
+    "featured": "avance",
+    "epLabel": "Episodio {n}",
+    "count": {
+      "one": "{n} episodio",
+      "other": "{n} episodios"
+    }
+  },
+  "themes": {
+    "strach": "Miedo y valentía",
+    "sdileni": "Compartir y colaborar",
+    "pocity": "Amistad y emociones",
+    "priroda": "Naturaleza y estaciones",
+    "zvyky": "Hogar y hábitos",
+    "dobro": "Pequeñas aventuras"
+  },
+  "parents": {
+    "eyebrow": "Para familias",
+    "title": "Cómo es un episodio",
+    "sub": "Cada episodio tiene el mismo ritmo tranquilo. Los niños saben lo que viene, y eso les da seguridad.",
+    "s1": { "title": "Sintonía e introducción", "time": "30 s", "text": "Quién, dónde y de qué se trata hoy." },
+    "s2": { "title": "La historia", "time": "6–7 min", "text": "Un problema sencillo que el personaje resuelve a su manera." },
+    "s3": { "title": "La solución", "time": "1–2 min", "text": "Una enseñanza suave, nunca en voz alta ni con el dedo levantado." },
+    "s4": { "title": "La canción", "time": "30 s", "text": "Notička toca y todos se despiden." },
+    "tipsTitle": "Para hablar después del episodio",
+    "tips": [
+      "¿Qué le daba miedo a Ouško y qué le ayudó?",
+      "¿Tú también tienes miedo a veces? ¿Qué te hace sentir mejor?",
+      "¿A quién le darías un trozo de tu fresa?",
+      "¿Cómo se le pide perdón a un amigo?"
+    ],
+    "langsTitle": "Estamos preparando la serie en cinco idiomas"
+  },
+  "footer": {
+    "tagline": "Buenas noches, amigos. 🌙",
+    "navLabel": "Pie de página"
+  },
+  "notFound": {
+    "title": "Página no encontrada – Doupátkov",
+    "heading": "Vaya, este caminito no lleva a ninguna parte",
+    "text": "Ouško ha buscado por todas partes: bajo las hojas, detrás de las flores y junto al arroyo. Pero esta página no está aquí.",
+    "back": "Volver a Doupátkov"
+  },
+  "episodes": [
+    "Ouško tiene miedo a la oscuridad",
+    "La pelota perdida",
+    "Una nueva amiga: la zorrita",
+    "Repartir las fresas",
+    "Brumla tiene miedo a la tormenta",
+    "Una nana para Brumla",
+    "La gran limpieza de la madriguera",
+    "Ouško se pierde en el bosque",
+    "La primera nieve",
+    "El silbato perdido",
+    "Lavarse las patitas antes de comer",
+    "La carrera en el prado y el juego limpio",
+    "Brumla aprende a nadar",
+    "A por setas en otoño",
+    "El arcoíris después de la lluvia",
+    "Ouško tiene celos de un nuevo amigo",
+    "Cuidar un huevo de pájaro",
+    "Lavarse los dientes por la noche",
+    "Refugio contra la lluvia",
+    "Compartir el último trozo de tarta",
+    "El coco debajo de la cama",
+    "Una canción nueva para el grillo",
+    "Miel y abejas: compartir con la naturaleza",
+    "Cómo pedir perdón a un amigo",
+    "El paraguas perdido",
+    "Jugar en la nieve",
+    "El remedio de la abuela para el resfriado",
+    "Paciencia al pescar",
+    "El viento se llevó el sombrero",
+    "Saltar sobre las hojas de otoño",
+    "Ayudar a un pajarito herido",
+    "Nervios antes de la función",
+    "Compartir el paraguas",
+    "Una aventura nocturna de la imaginación",
+    "Los viejos cuentos de la abuela",
+    "El bosque despierta en primavera",
+    "Hacer un pastel con Brumla",
+    "En busca de la amiga perdida",
+    "Truenos y relámpagos: cómo no tener miedo",
+    "Compartir los juguetes en el parque",
+    "Contar las estrellas",
+    "El grillo se ha quedado sin voz",
+    "El jardincito de la abuela",
+    "Limpiamos juntos la madriguera",
+    "Una casita nueva después de la tormenta",
+    "Miedo al médico",
+    "Prestar un instrumento musical",
+    "Preparativos para el invierno",
+    "El botón perdido",
+    "Esperar en la fila",
+    "El cumpleaños del grillo",
+    "Un paseo en el carrito de ramitas",
+    "Predecir el tiempo mirando la naturaleza",
+    "Perdidos en la niebla espesa",
+    "El pañuelo favorito perdido",
+    "Compartir la manta en una noche de invierno",
+    "Reconocer un error tras romper una taza",
+    "Celos de la fuerza de Brumla",
+    "Aprender a tocar un instrumento nuevo",
+    "Limpieza de primavera en la madriguera",
+    "Ayudar a las hormiguitas con su carga",
+    "Arcoíris y niebla: fenómenos de la naturaleza",
+    "Un puente sobre el arroyo",
+    "El té de hierbas de la abuela",
+    "Compartir el columpio",
+    "Cometas en otoño",
+    "Miedo a las arañas",
+    "La nota perdida de la canción",
+    "Esperar a un amigo que llega tarde",
+    "Compartir la casa con alguien más",
+    "Por qué Brumla duerme todo el invierno",
+    "Tristeza en un día de lluvia",
+    "El consejo de la abuela sobre la amistad",
+    "Teatro de sombras en una tarde de lluvia",
+    "Llevar bellotas entre todos",
+    "Ouško aprende a no tirar palos",
+    "Una canción de primavera para todo el bosque",
+    "Compartir la última fresa",
+    "La despedida de la abuela antes de hibernar",
+    "La gran fiesta del bosque"
+  ]
+}

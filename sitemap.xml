@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://tomikos1234.github.io/doupatkov/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomikos1234.github.io/doupatkov/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomikos1234.github.io/doupatkov/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomikos1234.github.io/doupatkov/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomikos1234.github.io/doupatkov/es/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomikos1234.github.io/doupatkov/pl/"/>
+  </url>
+  <url>
+    <loc>https://tomikos1234.github.io/doupatkov/en/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomikos1234.github.io/doupatkov/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomikos1234.github.io/doupatkov/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomikos1234.github.io/doupatkov/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomikos1234.github.io/doupatkov/es/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomikos1234.github.io/doupatkov/pl/"/>
+  </url>
+  <url>
+    <loc>https://tomikos1234.github.io/doupatkov/de/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomikos1234.github.io/doupatkov/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomikos1234.github.io/doupatkov/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomikos1234.github.io/doupatkov/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomikos1234.github.io/doupatkov/es/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomikos1234.github.io/doupatkov/pl/"/>
+  </url>
+  <url>
+    <loc>https://tomikos1234.github.io/doupatkov/es/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomikos1234.github.io/doupatkov/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomikos1234.github.io/doupatkov/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomikos1234.github.io/doupatkov/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomikos1234.github.io/doupatkov/es/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomikos1234.github.io/doupatkov/pl/"/>
+  </url>
+  <url>
+    <loc>https://tomikos1234.github.io/doupatkov/pl/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://tomikos1234.github.io/doupatkov/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tomikos1234.github.io/doupatkov/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tomikos1234.github.io/doupatkov/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tomikos1234.github.io/doupatkov/es/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://tomikos1234.github.io/doupatkov/pl/"/>
+  </url>
+</urlset>

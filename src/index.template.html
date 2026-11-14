@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="utf-8">
+  <!-- Vygenerováno skriptem build.mjs ze src/index.template.html a i18n/{{lang}}.json. Needitovat ručně. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{meta.title}}</title>
+  <meta name="description" content="{{meta.description}}">
+  <meta name="theme-color" content="#fbf3e2">
+  <link rel="canonical" href="{{url}}">
+{{hreflangs}}
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="{{locale}}">
+  <meta property="og:site_name" content="Doupátkov">
+  <meta property="og:title" content="{{meta.title}}">
+  <meta property="og:description" content="{{meta.ogDescription}}">
+  <meta property="og:url" content="{{url}}">
+  <meta property="og:image" content="{{siteUrl}}img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="{{base}}img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="{{base}}img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,500..800,100&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{base}}css/style.css">
+</head>
+<body>
+
+<a class="skip" href="#obsah">{{nav.skip}}</a>
+
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="brand" href="#top" aria-label="{{nav.home}}">
+      <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true">
+        <circle cx="24" cy="18" r="15" fill="#7d8a3a"/>
+        <circle cx="13" cy="20" r="9" fill="#93a04a"/>
+        <circle cx="35" cy="20" r="9" fill="#6b7830"/>
+        <path d="M18 46c1-8 1-14 0-20h12c-1 6-1 12 0 20z" fill="#8a5a33"/>
+        <path d="M21 46v-6a3 3 0 0 1 6 0v6z" fill="#f2c46b"/>
+      </svg>
+      <span>Doupátkov</span>
+    </a>
+    <div class="nav__right">
+      <nav id="menu" class="nav__menu" aria-label="{{nav.mainMenu}}">
+        <a href="#o-serialu">{{nav.about}}</a>
+        <a href="#postavy">{{nav.characters}}</a>
+        <a href="#svet">{{nav.world}}</a>
+        <a href="#dily">{{nav.episodes}}</a>
+        <a href="#rodice">{{nav.parents}}</a>
+      </nav>
+      <details class="lang">
+        <summary aria-label="{{nav.language}}: {{name}}">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+          <span>{{code}}</span>
+        </summary>
+        <ul class="lang__menu">
+{{langMenu}}
+        </ul>
+      </details>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="menu" aria-label="{{nav.menuOpen}}">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="obsah">
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero__img">
+      <img src="{{base}}img/hero.jpg" alt="{{hero.alt}}" width="1344" height="752">
+    </div>
+    <div class="hero__text">
+      <p class="eyebrow">{{hero.eyebrow}}</p>
+      <h1>{{hero.title1}}<br><span>{{hero.title2}}</span></h1>
+      <p class="lead">{{hero.lead}}</p>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="#dil-1">{{hero.cta1}}</a>
+        <a class="btn btn--ghost" href="#dily">{{hero.cta2}}</a>
+      </div>
+    </div>
+    <svg class="wave wave--bottom" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path d="M0 40c120 30 240 30 360 10s240-40 360-20 240 40 360 30 240-30 360-30v70H0z" fill="var(--paper)"/></svg>
+  </section>
+
+  <!-- O SERIÁLU -->
+  <section class="section" id="o-serialu">
+    <div class="wrap">
+      <div class="intro">
+        <div class="intro__text">
+          <p class="eyebrow">{{about.eyebrow}}</p>
+          <h2>{{about.title}}</h2>
+          <p>{{about.p1}}</p>
+          <p>{{about.p2}}</p>
+        </div>
+        <ul class="facts">
+          <li><strong>80</strong><span>{{about.facts.episodes}}</span></li>
+          <li><strong>~9</strong><span>{{about.facts.minutes}}</span></li>
+          <li><strong>3–6</strong><span>{{about.facts.age}}</span></li>
+          <li><strong>5</strong><span>{{about.facts.languages}}</span></li>
+        </ul>
+      </div>
+
+      <div class="values">
+        <article class="value">
+          <div class="value__icon" aria-hidden="true">🌙</div>
+          <h3>{{about.v1t}}</h3>
+          <p>{{about.v1p}}</p>
+        </article>
+        <article class="value">
+          <div class="value__icon" aria-hidden="true">🍓</div>
+          <h3>{{about.v2t}}</h3>
+          <p>{{about.v2p}}</p>
+        </article>
+        <article class="value">
+          <div class="value__icon" aria-hidden="true">🎻</div>
+          <h3>{{about.v3t}}</h3>
+          <p>{{about.v3p}}</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- POSTAVY -->
+  <section class="section section--tint" id="postavy">
+    <svg class="wave wave--top" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path d="M0 40c160-30 320-30 480 0s320 30 480 0 320-30 480 0V0H0z" fill="var(--paper)"/></svg>
+    <div class="wrap">
+      <p class="eyebrow center">{{chars.eyebrow}}</p>
+      <h2 class="center">{{chars.title}}</h2>
+      <p class="sub center">{{chars.sub}}</p>
+
+      <div class="chars">
+        <article class="char" style="--accent: var(--moss)">
+          <div class="char__img"><img src="{{base}}img/ousko.jpg" alt="{{chars.ousko.alt}}" loading="lazy" width="448" height="752"></div>
+          <div class="char__body">
+            <h3>{{chars.ousko.name}}</h3>
+            <p class="char__role">{{chars.ousko.role}}</p>
+            <p>{{chars.ousko.text}}</p>
+          </div>
+        </article>
+        <article class="char" style="--accent: var(--terracotta)">
+          <div class="char__img"><img src="{{base}}img/babca.jpg" alt="{{chars.babca.alt}}" loading="lazy" width="430" height="752"></div>
+          <div class="char__body">
+            <h3>{{chars.babca.name}}</h3>
+            <p class="char__role">{{chars.babca.role}}</p>
+            <p>{{chars.babca.text}}</p>
+          </div>
+        </article>
+        <article class="char" style="--accent: var(--ochre)">
+          <div class="char__img"><img src="{{base}}img/brumla.jpg" alt="{{chars.brumla.alt}}" loading="lazy" width="450" height="752"></div>
+          <div class="char__body">
+            <h3>{{chars.brumla.name}}</h3>
+            <p class="char__role">{{chars.brumla.role}}</p>
+            <p>{{chars.brumla.text}}</p>
+          </div>
+        </article>
+        <article class="char" style="--accent: var(--moss)">
+          <div class="char__img"><img src="{{base}}img/cvrcek.jpg" alt="{{chars.cvrcek.alt}}" loading="lazy" width="400" height="752"></div>
+          <div class="char__body">
+            <h3>{{chars.cvrcek.name}}</h3>
+            <p class="char__role">{{chars.cvrcek.role}}</p>
+            <p>{{chars.cvrcek.text}}</p>
+          </div>
+        </article>
+        <article class="char" style="--accent: var(--terracotta)">
+          <div class="char__img"><img src="{{base}}img/liska.jpg" alt="{{chars.liska.alt}}" loading="lazy" width="370" height="752"></div>
+          <div class="char__body">
+            <h3>{{chars.liska.name}}</h3>
+            <p class="char__role">{{chars.liska.role}}</p>
+            <p>{{chars.liska.text}}</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SVĚT -->
+  <section class="section" id="svet">
+    <div class="wrap">
+      <p class="eyebrow center">{{world.eyebrow}}</p>
+      <h2 class="center">{{world.title}}</h2>
+      <p class="sub center">{{world.sub}}</p>
+
+      <div class="places">
+        <figure class="place place--wide">
+          <img src="{{base}}img/louka-hra.jpg" alt="{{world.dub.alt}}" loading="lazy" width="1344" height="752">
+          <figcaption><strong>{{world.dub.name}}</strong>{{world.dub.text}}</figcaption>
+        </figure>
+        <figure class="place">
+          <img src="{{base}}img/louka.jpg" alt="{{world.louka.alt}}" loading="lazy" width="1000" height="560">
+          <figcaption><strong>{{world.louka.name}}</strong>{{world.louka.text}}</figcaption>
+        </figure>
+        <figure class="place">
+          <img src="{{base}}img/pokojicek.jpg" alt="{{world.pokojicek.alt}}" loading="lazy" width="1000" height="560">
+          <figcaption><strong>{{world.pokojicek.name}}</strong>{{world.pokojicek.text}}</figcaption>
+        </figure>
+        <figure class="place">
+          <img src="{{base}}img/svetnicka.jpg" alt="{{world.svetnicka.alt}}" loading="lazy" width="1000" height="560">
+          <figcaption><strong>{{world.svetnicka.name}}</strong>{{world.svetnicka.text}}</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- DÍL 1 -->
+  <section class="night" id="dil-1">
+    <div class="night__bg" aria-hidden="true"><img src="{{base}}img/noc.jpg" alt="" loading="lazy" width="1344" height="752"></div>
+    <div class="fireflies" aria-hidden="true"></div>
+    <div class="wrap night__inner">
+      <div class="night__card">
+        <p class="eyebrow">{{ep1.eyebrow}}</p>
+        <h2>{{ep1.title}}</h2>
+        <p>{{ep1.text}}</p>
+        <ol class="beats">
+          <li><span>0:00</span>{{ep1.b1}}</li>
+          <li><span>0:30</span>{{ep1.b2}}</li>
+          <li><span>7:00</span>{{ep1.b3}}</li>
+          <li><span>9:45</span>{{ep1.b4}}</li>
+        </ol>
+        <blockquote>{{ep1.quote}}<cite>{{ep1.quoteBy}}</cite></blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- DÍLY -->
+  <section class="section" id="dily">
+    <div class="wrap">
+      <p class="eyebrow center">{{list.eyebrow}}</p>
+      <h2 class="center">{{list.title}}</h2>
+      <p class="sub center">{{list.sub}}</p>
+
+      <div class="filters" role="toolbar" aria-label="{{list.filterLabel}}">
+        <div class="chips" id="chips"></div>
+        <label class="search">
+          <span class="visually-hidden">{{list.searchLabel}}</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <input type="search" id="search" placeholder="{{list.searchPlaceholder}}" autocomplete="off">
+        </label>
+      </div>
+      <p class="count" id="count" aria-live="polite"></p>
+      <ol class="episodes" id="episodes"></ol>
+      <p class="empty" id="empty" hidden>{{list.empty}}</p>
+    </div>
+  </section>
+
+  <!-- PRO RODIČE -->
+  <section class="section section--tint" id="rodice">
+    <svg class="wave wave--top" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path d="M0 40c160-30 320-30 480 0s320 30 480 0 320-30 480 0V0H0z" fill="var(--paper)"/></svg>
+    <div class="wrap">
+      <p class="eyebrow center">{{parents.eyebrow}}</p>
+      <h2 class="center">{{parents.title}}</h2>
+      <p class="sub center">{{parents.sub}}</p>
+
+      <ol class="timeline">
+        <li><div class="timeline__dot">1</div><h3>{{parents.s1.title}}</h3><p class="timeline__time">{{parents.s1.time}}</p><p>{{parents.s1.text}}</p></li>
+        <li><div class="timeline__dot">2</div><h3>{{parents.s2.title}}</h3><p class="timeline__time">{{parents.s2.time}}</p><p>{{parents.s2.text}}</p></li>
+        <li><div class="timeline__dot">3</div><h3>{{parents.s3.title}}</h3><p class="timeline__time">{{parents.s3.time}}</p><p>{{parents.s3.text}}</p></li>
+        <li><div class="timeline__dot">4</div><h3>{{parents.s4.title}}</h3><p class="timeline__time">{{parents.s4.time}}</p><p>{{parents.s4.text}}</p></li>
+      </ol>
+
+      <div class="tips">
+        <div class="tips__text">
+          <h3>{{parents.tipsTitle}}</h3>
+          <ul>
+            <li>{{parents.tips.0}}</li>
+            <li>{{parents.tips.1}}</li>
+            <li>{{parents.tips.2}}</li>
+            <li>{{parents.tips.3}}</li>
+          </ul>
+        </div>
+        <div class="langs">
+          <h3>{{parents.langsTitle}}</h3>
+          <ul class="langs__list">
+{{langList}}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <svg class="wave wave--top" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path d="M0 40c160-30 320-30 480 0s320 30 480 0 320-30 480 0V0H0z" fill="var(--paper-2)"/></svg>
+  <div class="wrap footer__inner">
+    <div>
+      <p class="footer__brand">{{meta.title}}</p>
+      <p>{{footer.tagline}}</p>
+    </div>
+    <nav class="footer__nav" aria-label="{{footer.navLabel}}">
+      <a href="#o-serialu">{{nav.about}}</a>
+      <a href="#postavy">{{nav.characters}}</a>
+      <a href="#dily">{{nav.episodes}}</a>
+      <a href="#rodice">{{nav.parents}}</a>
+    </nav>
+    <p class="footer__copy">© 2026 Doupátkov</p>
+  </div>
+</footer>
+
+<script>window.I18N = {{i18nJson}};</script>
+<script src="{{base}}js/main.js"></script>
+</body>
+</html>

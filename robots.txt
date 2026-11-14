@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://tomikos1234.github.io/doupatkov/sitemap.xml

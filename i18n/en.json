@@ -1,0 +1,255 @@
+{
+  "lang": "en",
+  "code": "EN",
+  "name": "English",
+  "locale": "en_GB",
+  "meta": {
+    "title": "Forest Friends of Doupátkov",
+    "description": "A calm, gentle animated series for preschoolers. 80 short episodes about Ouško the little rabbit and his friends from a village inside an old oak tree.",
+    "ogDescription": "A calm, gentle animated series for preschoolers. 80 short episodes from a little village inside an old oak tree."
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "home": "Doupátkov – home",
+    "mainMenu": "Main menu",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "about": "About",
+    "characters": "Characters",
+    "world": "World",
+    "episodes": "Episodes",
+    "parents": "For parents",
+    "language": "Language"
+  },
+  "hero": {
+    "alt": "Ouško the rabbit, Brumla the bear cub, Babča Ježka the hedgehog and Notička the cricket in a meadow by the old oak",
+    "eyebrow": "An animated series for preschoolers",
+    "title1": "Forest Friends",
+    "title2": "of Doupátkov",
+    "lead": "Calm stories from a little village inside an old oak tree. No scares, no rush – just small childhood worries, kind friends and always a happy ending.",
+    "cta1": "Meet episode 1",
+    "cta2": "All 80 episodes"
+  },
+  "about": {
+    "eyebrow": "About the series",
+    "title": "Little stories about big feelings",
+    "p1": "Hidden inside an old hollow oak lies Doupátkov, a cosy little village. It is home to Ouško, a curious little rabbit, and his friends. Each episode brings one simple situation that young children know from their own lives – being afraid of the dark, sharing toys, making a new friend or a storm outside the window.",
+    "p2": "The series is slow and soft, in the spirit of classic Czech bedtime cartoons. Nobody spells out the lesson – children discover it on their own, together with Ouško.",
+    "facts": {
+      "episodes": "episodes",
+      "minutes": "minutes each",
+      "age": "years, for preschoolers",
+      "languages": "languages"
+    },
+    "v1t": "No fear, no tension",
+    "v1p": "Even the night in Doupátkov is blue and kind. No villains, no jump scares before bedtime.",
+    "v2t": "Moments from children’s lives",
+    "v2p": "Sharing, jealousy, saying sorry, brushing teeth. Topics your child is going through right now.",
+    "v3t": "Always a happy ending",
+    "v3p": "Every episode ends with a song by Notička the cricket and the feeling that all is well again."
+  },
+  "chars": {
+    "eyebrow": "Characters",
+    "title": "Who lives in Doupátkov",
+    "sub": "Just a few friends, so even the youngest viewers can easily remember them all.",
+    "ousko": {
+      "name": "Ouško",
+      "alt": "Ouško the rabbit with a green scarf",
+      "role": "curious little rabbit · main hero",
+      "text": "He looks at the world with wonder and wants to try everything. Sometimes he makes mistakes, but he always learns something from them."
+    },
+    "babca": {
+      "name": "Babča Ježka",
+      "alt": "Babča Ježka with a headscarf and a lantern",
+      "role": "wise hedgehog granny",
+      "text": "She knits in her rocking chair, brews herbal tea and knows what to do when things go wrong. With her lantern, nothing can frighten her."
+    },
+    "brumla": {
+      "name": "Brumla",
+      "alt": "Brumla the bear cub in green dungarees",
+      "role": "clumsy but kind bear cub",
+      "text": "A strongman with a big heart. He loves eating, loves sleeping, and at hide-and-seek he hides behind a flower."
+    },
+    "cvrcek": {
+      "name": "Notička",
+      "alt": "Notička the cricket with a violin and a bow tie",
+      "role": "tiny cricket musician",
+      "text": "A cheerful soul who solves everything with a song. His little violin plays at the end of every episode."
+    },
+    "liska": {
+      "name": "Ryška",
+      "alt": "Ryška the fox with a yellow scarf",
+      "role": "a bit of a rascal fox",
+      "text": "She notices absolutely everything. She came to Doupátkov as a new friend and teaches the others what is fair."
+    }
+  },
+  "world": {
+    "eyebrow": "World",
+    "title": "A village inside an old oak",
+    "sub": "Round, soft and warm. Ochre, moss green and terracotta – as if the whole forest were knitted from wool.",
+    "dub": {
+      "alt": "Brumla and Ouško playing hide-and-seek by the old oak",
+      "name": "The old oak",
+      "text": "A hollow tree with little windows, doors and steps. All the friends live inside."
+    },
+    "louka": {
+      "alt": "A flowering meadow with a stream",
+      "name": "Meadow and stream",
+      "text": "A place for playing, racing and flying kites."
+    },
+    "pokojicek": {
+      "alt": "Ouško’s little room with a bed and a candle",
+      "name": "Ouško’s little room",
+      "text": "A bed with a patchwork blanket, a candle and a round window looking into the oak’s crown."
+    },
+    "svetnicka": {
+      "alt": "Babča’s parlour with a rocking chair and a lantern",
+      "name": "Babča’s parlour",
+      "text": "A rocking chair, balls of wool and jars full of herbs."
+    }
+  },
+  "ep1": {
+    "eyebrow": "Episode 1 · 10 minutes",
+    "title": "Ouško Is Afraid of the Dark",
+    "text": "Ouško plays with Brumla in the meadow until it gets dark. At home his candle goes out and a huge shadow with long ears appears on the wall. Babča Ježka takes her lantern and goes with him to have a look at the dark. And it turns out that everything has a kind explanation.",
+    "b1": "Theme song and Doupátkov",
+    "b2": "Playing in the meadow, nightfall, the candle goes out",
+    "b3": "The shadow is just a coat, the tapping just a twig",
+    "b4": "Lullaby and good night",
+    "quote": "“The dark is just the time when the forest sleeps.”",
+    "quoteBy": "Babča Ježka"
+  },
+  "list": {
+    "eyebrow": "Episodes",
+    "title": "80 little stories",
+    "sub": "Pick a topic your child is dealing with right now, or search for an episode by its title.",
+    "filterLabel": "Filter episodes by topic",
+    "searchLabel": "Search episodes",
+    "searchPlaceholder": "Search episodes…",
+    "empty": "We couldn’t find that episode. Try another word. 🦔",
+    "all": "All",
+    "featured": "preview",
+    "epLabel": "Episode {n}",
+    "count": {
+      "one": "{n} episode",
+      "other": "{n} episodes"
+    }
+  },
+  "themes": {
+    "strach": "Fear and courage",
+    "sdileni": "Sharing and teamwork",
+    "pocity": "Friendship and feelings",
+    "priroda": "Nature and seasons",
+    "zvyky": "Home and routines",
+    "dobro": "Little adventures"
+  },
+  "parents": {
+    "eyebrow": "For parents",
+    "title": "What an episode looks like",
+    "sub": "Every episode has the same calm rhythm. Children know what is coming, and that helps them feel safe.",
+    "s1": { "title": "Theme song and intro", "time": "30 s", "text": "Who, where and what today is about." },
+    "s2": { "title": "The story", "time": "6–7 min", "text": "A simple problem the character solves in their own way." },
+    "s3": { "title": "The resolution", "time": "1–2 min", "text": "A gentle lesson – never loud, never preachy." },
+    "s4": { "title": "The song", "time": "30 s", "text": "Notička plays and everyone says goodbye." },
+    "tipsTitle": "Things to talk about after an episode",
+    "tips": [
+      "What was Ouško afraid of, and what helped him?",
+      "Do you ever feel scared too? What makes you feel better?",
+      "Who would you give a piece of your strawberry to?",
+      "How can you say sorry to a friend?"
+    ],
+    "langsTitle": "The series is being made in five languages"
+  },
+  "footer": {
+    "tagline": "Good night, friends. 🌙",
+    "navLabel": "Footer"
+  },
+  "notFound": {
+    "title": "Page not found – Doupátkov",
+    "heading": "Oops, this little path leads nowhere",
+    "text": "Ouško looked everywhere – under the leaves, behind the flowers and down by the stream. But this page isn’t here.",
+    "back": "Back to Doupátkov"
+  },
+  "episodes": [
+    "Ouško Is Afraid of the Dark",
+    "The Lost Ball",
+    "A New Friend: the Fox",
+    "Sharing the Strawberries",
+    "Brumla Is Afraid of the Storm",
+    "A Lullaby for Brumla",
+    "The Big Den Clean-Up",
+    "Ouško Gets Lost in the Forest",
+    "The First Snow",
+    "The Lost Whistle",
+    "Washing Paws Before Eating",
+    "The Meadow Race and Fair Play",
+    "Brumla Learns to Swim",
+    "Mushroom Picking in Autumn",
+    "A Rainbow After the Rain",
+    "Ouško Is Jealous of a New Friend",
+    "Looking After a Bird’s Egg",
+    "Brushing Teeth at Bedtime",
+    "Shelter from the Rain",
+    "Sharing the Last Piece of Cake",
+    "The Bogeyman Under the Bed",
+    "A New Song for the Cricket",
+    "Honey and Bees – Sharing with Nature",
+    "How to Say Sorry to a Friend",
+    "The Lost Umbrella",
+    "Playing in the Snow",
+    "Granny’s Cold Remedy",
+    "Patience While Fishing",
+    "The Wind Blew the Hat Away",
+    "Jumping into Autumn Leaves",
+    "Helping an Injured Bird",
+    "Stage Fright",
+    "Sharing an Umbrella",
+    "A Night-Time Adventure of the Imagination",
+    "Granny’s Old Tales",
+    "The Forest Wakes Up in Spring",
+    "Baking a Cake with Brumla",
+    "Looking for a Lost Friend",
+    "Thunder and Lightning – How Not to Be Afraid",
+    "Sharing Toys at the Playground",
+    "Counting the Stars",
+    "The Cricket Loses His Voice",
+    "Granny’s Garden",
+    "Tidying the Den Together",
+    "Building a New Home After the Storm",
+    "Afraid of the Doctor",
+    "Lending a Musical Instrument",
+    "Getting Ready for Winter",
+    "The Lost Button",
+    "Waiting in Line",
+    "The Cricket’s Birthday",
+    "A Ride on a Twig Cart",
+    "Reading the Weather from Nature",
+    "Lost in the Thick Fog",
+    "The Lost Favourite Scarf",
+    "Sharing a Blanket on a Winter Night",
+    "Owning Up After a Broken Mug",
+    "Jealous of Brumla’s Strength",
+    "Learning to Play a New Instrument",
+    "Spring-Cleaning the Den",
+    "Helping the Ants with Their Load",
+    "Rainbow and Fog – Wonders of Nature",
+    "Building a Bridge over the Stream",
+    "Granny’s Herbal Tea",
+    "Sharing the Swing",
+    "Kite Flying in Autumn",
+    "Afraid of Spiders",
+    "The Lost Note for a Song",
+    "Waiting for a Late Friend",
+    "Sharing a Home with Someone Else",
+    "Why Brumla Sleeps All Winter",
+    "Sad on a Rainy Day",
+    "Granny’s Advice on Friendship",
+    "Shadow Theatre on a Rainy Evening",
+    "Carrying Acorns Together",
+    "Ouško Learns Not to Throw Sticks",
+    "A Spring Song for the Whole Forest",
+    "Sharing the Last Strawberry",
+    "Granny’s Goodbye Before Hibernation",
+    "The Great Forest Festival"
+  ]
+}

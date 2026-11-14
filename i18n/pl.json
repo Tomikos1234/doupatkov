@@ -1,0 +1,257 @@
+{
+  "lang": "pl",
+  "code": "PL",
+  "name": "Polski",
+  "locale": "pl_PL",
+  "meta": {
+    "title": "Leśni przyjaciele z Doupátkova",
+    "description": "Spokojny i ciepły serial animowany dla przedszkolaków. 80 krótkich odcinków o zajączku Oušku i jego przyjaciołach z wioski w starym dębie.",
+    "ogDescription": "Spokojny i ciepły serial animowany dla przedszkolaków. 80 krótkich odcinków z małej wioski w starym dębie."
+  },
+  "nav": {
+    "skip": "Przejdź do treści",
+    "home": "Doupátkov – strona główna",
+    "mainMenu": "Menu główne",
+    "menuOpen": "Otwórz menu",
+    "menuClose": "Zamknij menu",
+    "about": "O serialu",
+    "characters": "Postacie",
+    "world": "Świat",
+    "episodes": "Odcinki",
+    "parents": "Dla rodziców",
+    "language": "Język"
+  },
+  "hero": {
+    "alt": "Zajączek Ouško, miś Brumla, babcia jeżyca Babča Ježka i świerszcz Notička na łące przy starym dębie",
+    "eyebrow": "Serial animowany dla przedszkolaków",
+    "title1": "Leśni przyjaciele",
+    "title2": "z Doupátkova",
+    "lead": "Spokojne historie z małej wioski w starym dębie. Bez straszenia i bez pośpiechu – tylko małe dziecięce troski, życzliwi przyjaciele i zawsze dobre zakończenie.",
+    "cta1": "Poznaj odcinek 1",
+    "cta2": "Wszystkie 80 odcinków"
+  },
+  "about": {
+    "eyebrow": "O serialu",
+    "title": "Małe historie o&nbsp;wielkich dziecięcych uczuciach",
+    "p1": "W starym, dziuplastym dębie ukryta jest przytulna wioska Doupátkov. Mieszka w niej ciekawski zajączek Ouško ze swoimi przyjaciółmi. Każdy odcinek to jedna prosta sytuacja, którą małe dziecko zna z własnego życia – strach przed ciemnością, dzielenie się zabawkami, nowy kolega albo burza za oknem.",
+    "p2": "Serial jest powolny i łagodny, w duchu klasycznych czeskich dobranocek. Nikt nie wygłasza morałów – dzieci same do nich dochodzą, razem z Ouškiem.",
+    "facts": {
+      "episodes": "odcinków",
+      "minutes": "minut każdy odcinek",
+      "age": "lat, dla przedszkolaków",
+      "languages": "języków"
+    },
+    "v1t": "Bez strachu i napięcia",
+    "v1p": "Nawet noc w Doupátkovie jest niebieska i życzliwa. Żadnych złoczyńców, żadnego straszenia przed snem.",
+    "v2t": "Sytuacje z życia dzieci",
+    "v2p": "Dzielenie się, zazdrość, przeprosiny, mycie zębów. Tematy, które dziecko właśnie przeżywa.",
+    "v3t": "Zawsze dobre zakończenie",
+    "v3p": "Każdy odcinek kończy się piosenką świerszcza Notički i poczuciem, że wszystko znów jest w porządku."
+  },
+  "chars": {
+    "eyebrow": "Postacie",
+    "title": "Kto mieszka w Doupátkovie",
+    "sub": "Tylko kilkoro przyjaciół, żeby nawet najmłodsi łatwo ich zapamiętali.",
+    "ousko": {
+      "name": "Ouško",
+      "alt": "Zajączek Ouško w zielonym szaliku",
+      "role": "ciekawski zajączek · główny bohater",
+      "text": "Patrzy na świat z zachwytem i chce wszystkiego spróbować. Czasem popełnia błędy, ale zawsze czegoś się z nich uczy."
+    },
+    "babca": {
+      "name": "Babča Ježka",
+      "alt": "Babča Ježka w chustce i z latarenką",
+      "role": "mądra babcia jeżyca",
+      "text": "Robi na drutach w bujanym fotelu, parzy herbatkę ziołową i wie, co zrobić, gdy coś nie wychodzi. Z latarenką w ręku niczego się nie boi."
+    },
+    "brumla": {
+      "name": "Brumla",
+      "alt": "Miś Brumla w zielonych ogrodniczkach",
+      "role": "niezdarny, ale dobry miś",
+      "text": "Siłacz o wielkim sercu. Lubi jeść, lubi spać, a w chowanego chowa się za kwiatkiem."
+    },
+    "cvrcek": {
+      "name": "Notička",
+      "alt": "Świerszcz Notička ze skrzypcami i muszką",
+      "role": "mały świerszcz muzykant",
+      "text": "Wesołek, który wszystko załatwia piosenką. Jego skrzypeczki grają na końcu każdego odcinka."
+    },
+    "liska": {
+      "name": "Ryška",
+      "alt": "Lisiczka Ryška w żółtej chustce",
+      "role": "lisiczka i trochę psotnica",
+      "text": "Zauważa absolutnie wszystko. Przyszła do Doupátkova jako nowa koleżanka i uczy innych, co jest uczciwe."
+    }
+  },
+  "world": {
+    "eyebrow": "Świat",
+    "title": "Wioska w starym dębie",
+    "sub": "Okrągła, miękka i ciepła. Ochra, mszysta zieleń i terakota – jakby cały las był zrobiony na drutach z wełny.",
+    "dub": {
+      "alt": "Brumla i Ouško bawią się w chowanego przy starym dębie",
+      "name": "Stary dąb",
+      "text": "Dziuplaste drzewo z okienkami, drzwiczkami i schodkami. W środku mieszkają wszyscy przyjaciele."
+    },
+    "louka": {
+      "alt": "Kwitnąca łąka ze strumykiem",
+      "name": "Łąka i strumyk",
+      "text": "Miejsce do zabawy, wyścigów i puszczania latawców."
+    },
+    "pokojicek": {
+      "alt": "Pokoik Ouška z łóżeczkiem i świeczką",
+      "name": "Pokoik Ouška",
+      "text": "Łóżeczko z kocykiem, świeczka i okrągłe okienko z widokiem na koronę dębu."
+    },
+    "svetnicka": {
+      "alt": "Izdebka Babči z bujanym fotelem i latarenką",
+      "name": "Izdebka Babči",
+      "text": "Bujany fotel, kłębki wełny i słoiki pełne ziół."
+    }
+  },
+  "ep1": {
+    "eyebrow": "Odcinek 1 · 10 minut",
+    "title": "Ouško boi się ciemności",
+    "text": "Ouško bawi się z Brumlą na łące, aż robi się ciemno. W domu gaśnie mu świeczka, a na ścianie pojawia się wielki cień z długimi uszami. Babča Ježka bierze latarenkę i idzie razem z nim obejrzeć ciemność. I okazuje się, że wszystko ma życzliwe wyjaśnienie.",
+    "b1": "Czołówka i Doupátkov",
+    "b2": "Zabawa na łące, zapada zmrok, gaśnie świeczka",
+    "b3": "Cień to tylko płaszczyk, a stuka tylko gałązka",
+    "b4": "Kołysanka i dobranoc",
+    "quote": "„Ciemność to po prostu czas, kiedy las śpi.”",
+    "quoteBy": "Babča Ježka"
+  },
+  "list": {
+    "eyebrow": "Odcinki",
+    "title": "80 małych historii",
+    "sub": "Wybierz temat, który właśnie przeżywa twoje dziecko, albo wyszukaj odcinek po tytule.",
+    "filterLabel": "Filtruj odcinki według tematu",
+    "searchLabel": "Szukaj odcinka",
+    "searchPlaceholder": "Szukaj odcinka…",
+    "empty": "Nie znaleźliśmy takiego odcinka. Spróbuj innego słowa. 🦔",
+    "all": "Wszystkie",
+    "featured": "zapowiedź",
+    "epLabel": "Odcinek {n}",
+    "count": {
+      "one": "{n} odcinek",
+      "few": "{n} odcinki",
+      "many": "{n} odcinków",
+      "other": "{n} odcinka"
+    }
+  },
+  "themes": {
+    "strach": "Strach i odwaga",
+    "sdileni": "Dzielenie się i współpraca",
+    "pocity": "Przyjaźń i uczucia",
+    "priroda": "Przyroda i pory roku",
+    "zvyky": "Dom i nawyki",
+    "dobro": "Małe przygody"
+  },
+  "parents": {
+    "eyebrow": "Dla rodziców",
+    "title": "Jak wygląda jeden odcinek",
+    "sub": "Każdy odcinek ma ten sam spokojny rytm. Dzieci wiedzą, co nastąpi, i to daje im poczucie bezpieczeństwa.",
+    "s1": { "title": "Czołówka i wstęp", "time": "30 s", "text": "Kto, gdzie i o czym dziś będzie mowa." },
+    "s2": { "title": "Fabuła", "time": "6–7 min", "text": "Prosty problem, który bohater rozwiązuje po swojemu." },
+    "s3": { "title": "Rozwiązanie", "time": "1–2 min", "text": "Delikatny morał – nigdy głośno ani z uniesionym palcem." },
+    "s4": { "title": "Piosenka", "time": "30 s", "text": "Notička gra i wszyscy się żegnają." },
+    "tipsTitle": "Po odcinku możecie porozmawiać",
+    "tips": [
+      "Czego bał się Ouško i co mu pomogło?",
+      "Czy ty też czasem się boisz? Co ci wtedy pomaga?",
+      "Komu dałbyś kawałek swojej truskawki?",
+      "Jak można przeprosić kolegę?"
+    ],
+    "langsTitle": "Serial przygotowujemy w pięciu językach"
+  },
+  "footer": {
+    "tagline": "Dobranoc, przyjaciele. 🌙",
+    "navLabel": "Stopka"
+  },
+  "notFound": {
+    "title": "Nie znaleziono strony – Doupátkov",
+    "heading": "Ojej, ta ścieżka donikąd nie prowadzi",
+    "text": "Ouško szukał wszędzie – pod liśćmi, za kwiatkami i nad strumykiem. Ale tej strony tu nie ma.",
+    "back": "Wróć do Doupátkova"
+  },
+  "episodes": [
+    "Ouško boi się ciemności",
+    "Zgubiona piłka",
+    "Nowa koleżanka – lisiczka",
+    "Dzielenie się truskawkami",
+    "Brumla boi się burzy",
+    "Kołysanka dla Brumli",
+    "Wielkie sprzątanie norki",
+    "Ouško gubi się w lesie",
+    "Pierwszy śnieg",
+    "Zgubiony gwizdek",
+    "Mycie łapek przed jedzeniem",
+    "Wyścig na łące i fair play",
+    "Brumla uczy się pływać",
+    "Grzybobranie jesienią",
+    "Tęcza po deszczu",
+    "Ouško jest zazdrosny o nowego kolegę",
+    "Opieka nad ptasim jajkiem",
+    "Wieczorne mycie ząbków",
+    "Schronienie przed deszczem",
+    "Ostatni kawałek tortu na pół",
+    "Straszydło pod łóżkiem",
+    "Nowa piosenka dla świerszcza",
+    "Miód i pszczoły – dzielenie się z przyrodą",
+    "Jak przeprosić przyjaciela",
+    "Zgubiony parasol",
+    "Zabawa na śniegu",
+    "Babciny sposób na katar",
+    "Cierpliwość na rybach",
+    "Wiatr porwał kapelusz",
+    "Skakanie w jesienne liście",
+    "Pomoc rannemu ptaszkowi",
+    "Trema przed występem",
+    "Jeden parasol dla dwojga",
+    "Nocna przygoda wyobraźni",
+    "Stare opowieści babci",
+    "Wiosenne budzenie się lasu",
+    "Pieczenie ciasta z Brumlą",
+    "Szukanie zaginionej koleżanki",
+    "Grzmot i błyskawica – jak się nie bać",
+    "Dzielenie się zabawkami na placu zabaw",
+    "Liczenie gwiazd",
+    "Świerszcz stracił głos",
+    "Babciny ogródek",
+    "Wspólne sprzątanie norki",
+    "Nowy domek po burzy",
+    "Strach przed lekarzem",
+    "Pożyczanie instrumentu",
+    "Przygotowania do zimy",
+    "Zgubiony guzik",
+    "Czekanie w kolejce",
+    "Urodziny świerszcza",
+    "Przejażdżka wózkiem z gałązek",
+    "Przepowiadanie pogody z przyrody",
+    "Zagubieni w gęstej mgle",
+    "Zgubiona ulubiona chustka",
+    "Jeden koc w zimową noc",
+    "Przyznanie się do błędu po stłuczonym kubku",
+    "Zazdrość o siłę Brumli",
+    "Nauka gry na nowym instrumencie",
+    "Wiosenne sprzątanie norki",
+    "Pomoc mrówkom z ładunkiem",
+    "Tęcza i mgła – zjawiska przyrody",
+    "Budowa kładki przez strumyk",
+    "Herbatka ziołowa według babci",
+    "Dzielenie się huśtawką",
+    "Puszczanie latawców jesienią",
+    "Strach przed pająkami",
+    "Zgubiona nuta do piosenki",
+    "Czekanie na spóźnionego przyjaciela",
+    "Dzielenie domku z kimś innym",
+    "Dlaczego Brumla śpi całą zimę",
+    "Smutek w deszczowy dzień",
+    "Babcina rada o przyjaźni",
+    "Teatr cieni w deszczowy wieczór",
+    "Wspólne przenoszenie żołędzi",
+    "Ouško uczy się nie rzucać patykami",
+    "Wiosenna piosenka dla całego lasu",
+    "Ostatnia truskawka na pół",
+    "Pożegnanie babci przed snem zimowym",
+    "Wielkie leśne święto"
+  ]
+}
